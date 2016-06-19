@@ -8,6 +8,8 @@ Roadmap
   - [ ] import npm package releases.
 - [ ] NPM Repository API:
   - [ ] Fetch NPM package list.
+    - [ ] `https://registry.npmjs.org/lodash._basefor`
+    - [ ] `https://registry.npmjs.org/lodash.isarguments`
   - [ ] import npm package releases.
 - [ ] Create project skeleton with CMake
 - [ ] Integrate goog-flags
