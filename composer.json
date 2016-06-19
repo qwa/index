@@ -1,0 +1,12 @@
+{
+    "name": "qwa/index",
+    "version": "1.0",
+    "require": {
+        "php": ">=5.5.0",
+        "corneltek/lazyrecord": "3.2.x-dev"
+    },
+    "require-dev": {
+        "corneltek/phpunit-testmore": "dev-master",
+        "lox/xhprof": "dev-master"
+    }
+}
