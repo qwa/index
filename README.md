@@ -3,9 +3,9 @@
 Roadmap
 ==============
 
-- [ ] Composer Repository API:
-  - [ ] Fetch composer package list.
-  - [ ] import npm package releases.
+- [ ] Composer repository API:
+  - [ ] PackageListImporter: Fetch composer package list.
+  - [ ] PackageReleaseImporter: Fetch package releases
 - [ ] NPM Repository API:
   - [ ] Fetch NPM package list.
     - [ ] `https://registry.npmjs.org/lodash._basefor`
