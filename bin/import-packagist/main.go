@@ -6,7 +6,7 @@ import "io/ioutil"
 import "database/sql"
 import "strings"
 
-// import _ "github.com/go-sql-driver/mysql"
+import _ "github.com/go-sql-driver/mysql"
 import _ "github.com/mattn/go-sqlite3"
 
 // import "path"
@@ -49,6 +49,8 @@ func main() {
 		log.Println(err)
 		return
 	}
+
+	// db, err := sql.Open("mysql", "user:password@/dbname")
 	db, err := sql.Open("sqlite3", "./indexdb.sqlite3")
 	if err != nil {
 		log.Fatal(err)
