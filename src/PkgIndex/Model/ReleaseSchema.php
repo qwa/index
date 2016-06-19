@@ -16,6 +16,10 @@ class ReleaseSchema extends DeclareSchema
             ->varchar(18)
             ;
 
+        $this->column('dist_url')
+            ->varchar(255)
+            ;
+
         $this->belongsTo('package', 'Package')
             ->by('package_id')
             ->usingIndex(true)
